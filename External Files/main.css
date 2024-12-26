@@ -31,12 +31,13 @@
     height: 100%;
     width: 100%;
 }
+
 .header {
     position: relative;
     width: 100%;
     height: 90vh; /* Full screen height */
     overflow: hidden;
-  }
+}
 
 /* Style for each carousel item (screen) */
 .new-carousel {
@@ -44,9 +45,9 @@
     transition: transform 1s ease-in-out;
     width: 100%;
     height: 100vh;
-  }
+}
 
-  .new-carousel-item {
+.new-carousel-item {
     flex: 0 0 100%;
     display: flex;
     justify-content: center;
@@ -59,34 +60,38 @@
     text-align: center;
     background-size: cover;
     background-position: center;
-  }
+}
 
   /* Background images for each slide */
-  .new-carousel-item:nth-child(1) {
+.new-carousel-item:nth-child(1) {
     background-image: url('../Photos/White_Logo.JPEG');
     background-size: 74% 100%;
-  }
-  @media (max-width: 850px) and (min-width: 320px) {
+}
+
+@media (max-width: 850px) and (min-width: 320px) {
     .new-carousel-item:nth-child(1) {
         background-image: url('../Photos/White_Logo.JPEG');
         background-size: cover;
       }
-  }
-  .new-carousel-item:nth-child(2) {
-    background-image: url('../Photos/Carsoul1.jpg');
-  }
+}
 
-  .new-carousel-item:nth-child(3) {
+.new-carousel-item:nth-child(2) {
+    background-image: url('../Photos/Carsoul1.jpg');
+}
+
+.new-carousel-item:nth-child(3) {
     background-image: url('../Photos/Carsoul2.jpeg');
-  }
-  .new-carousel-item:nth-child(4) {
+}
+
+.new-carousel-item:nth-child(4) {
     background-image: url('../Photos/Carsoul3.jpeg');
-  }
-  .new-carousel-item:nth-child(5) {
+}
+
+.new-carousel-item:nth-child(5) {
     background-image: url('../Photos/After-sales\ Service\ for\ Manufacturing.jpg');
-  }
-  /* Styling for navigation controls */
-  .new-carousel-button {
+}
+
+.new-carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -97,12 +102,12 @@
     font-size: 20px;
     cursor: pointer;
     z-index: 10;
-  }
+}
 
-  .prev {
+.prev {
     left: 10px;
-  }
+}
 
-  .next {
+.next {
     right: 10px;
-  }
+}
